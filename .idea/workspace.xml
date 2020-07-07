@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="e0f26928-a9c1-42ef-b22f-4559bf43c9ec" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageViewManager">
+    <option name="myElementSize" value="15" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1eAVXyeDddN37DKO2nQMzqQqd1I" />
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="show.run.dashboard.notification" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.hznu.sys" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hznu.sys.config" />
+      <recent name="com.hznu.sys" />
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\itheimaLearning\studentDemo\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.StudentDemoApplicationTest.selectStudentByName">
+    <configuration name="StudentDemoApplicationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="studentDemo" />
+      <option name="PACKAGE_NAME" value="com.hznu.sys" />
+      <option name="MAIN_CLASS_NAME" value="com.hznu.sys.StudentDemoApplicationTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDemoApplicationTest.R" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="studentDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hznu.sys.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hznu.sys" />
+      <option name="MAIN_CLASS_NAME" value="com.hznu.sys.StudentDemoApplicationTest" />
+      <option name="METHOD_NAME" value="R" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDemoApplicationTest.selectStudentByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="studentDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hznu.sys.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hznu.sys" />
+      <option name="MAIN_CLASS_NAME" value="com.hznu.sys.StudentDemoApplicationTest" />
+      <option name="METHOD_NAME" value="selectStudentByName" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDemoApplicationTest.selectTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="studentDemo" />
+      <option name="PACKAGE_NAME" value="com.hznu.sys" />
+      <option name="MAIN_CLASS_NAME" value="com.hznu.sys.StudentDemoApplicationTest" />
+      <option name="METHOD_NAME" value="selectTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDemoApplicationTest.testSelectList" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
+      <module name="studentDemo" />
+      <option name="PACKAGE_NAME" value="com.hznu.sys" />
+      <option name="MAIN_CLASS_NAME" value="com.hznu.sys.StudentDemoApplicationTest" />
+      <option name="METHOD_NAME" value="testSelectList" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PersonCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="studentDemo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="PersonCenterApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDemoApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="studentDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hznu.sys.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hznu.sys.StudentDemoApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.StudentDemoApplicationTest.selectStudentByName" />
+        <item itemvalue="Spring Boot.StudentDemoApplication" />
+        <item itemvalue="JUnit.StudentDemoApplicationTest.R" />
+        <item itemvalue="JUnit.StudentDemoApplicationTest" />
+        <item itemvalue="JUnit.StudentDemoApplicationTest.selectTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="e0f26928-a9c1-42ef-b22f-4559bf43c9ec" name="Default Changelist" comment="" />
+      <created>1593764427738</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1593764427738</updated>
+      <workItem from="1593764433091" duration="17066000" />
+      <workItem from="1593849292726" duration="151000" />
+      <workItem from="1593849483409" duration="11936000" />
+      <workItem from="1593943259582" duration="1827000" />
+      <workItem from="1593945898434" duration="33488000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="JUnit">
+        <watch expression="studentIPage" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/studentDemo$StudentDemoApplicationTest_R.ic" NAME="StudentDemoApplicationTest.R Coverage Results" MODIFIED="1594019213614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.hznu.sys.*</FILTER>
+    </SUITE>
+  </component>
+</project>
