@@ -30,8 +30,4 @@ public class StudentDemoApplicationTest {
         }
     }
 
-    @Test
-    public void  print(){
-        System.out.println("啦啦啦啦啦啦啦啦啦啦");
-    }
 }
