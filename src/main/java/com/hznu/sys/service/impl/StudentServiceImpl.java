@@ -28,10 +28,4 @@ public class StudentServiceImpl extends ServiceImpl<StudentMapper, Student> impl
         return student;
     }
 
-    @Override
-    public IPage<Student> selectStudentByName(Page<Student> page) {
-        return this.getBaseMapper().selectPage(page,null);
-    }
-
-
 }

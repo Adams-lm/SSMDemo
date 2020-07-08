@@ -1,9 +1,9 @@
 package com.hznu.sys.controller;
 
 
+import com.alibaba.fastjson.JSON;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
-import com.baomidou.mybatisplus.extension.api.R;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.hznu.sys.entity.Student;
 import com.hznu.sys.mapper.StudentMapper;
@@ -12,12 +12,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
-import java.util.List;
 import java.util.Map;
 
 /**
  * <p>
- *  前端控制器
+ * 前端控制器
  * </p>
  *
  * @author LinMing
@@ -34,20 +33,28 @@ public class StudentController {
     private StudentMapper studentMapper;
 
     @PostMapping("/add")
-    public String addStudent(Student student){
+    public String addStudent(Student student) {
         studentMapper.insert(student);
         return "OK";
     }
 
     @GetMapping("/test/{Sno}")
-    public Student ServiceTest(@PathVariable Integer Sno){
+    public Student ServiceTest(@PathVariable Integer Sno) {
         Student student = iStudentService.selectStudentById(Sno);
         return student;
     }
 
-    @PostMapping("/a")
-    public IPage<Student> selectStudentByName(Map<String,Object> params){
-            Page<Student> page = new Page<>((Integer)params.get("current"), (Integer)params.get("size"));
-            return iStudentService.selectStudentByName(page);
-        }
+
+    @PostMapping("/pageTest")
+    public JSON R(@RequestBody Map<String,Object> map) {
+        Integer current = (Integer) map.get("current");
+        Integer size = (Integer) map.get("size");
+        String keyword = (String) map.get("keyword");
+        Page<Student> page = new Page<>(current, size);
+        QueryWrapper<Student> wrapper = new QueryWrapper<>();
+        wrapper.eq("sno",keyword);
+        IPage<Student> iPage = studentMapper.selectPage(page, wrapper);
+        return (JSON) JSON.toJSON(iPage);
     }
+
+}
