@@ -1,8 +1,6 @@
 package com.hznu.sys;
 
 import com.alibaba.fastjson.JSON;
-import com.alibaba.fastjson.JSONObject;
-import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.hznu.sys.entity.Student;
@@ -62,12 +60,18 @@ public class StudentDemoApplicationTest {
     }
 
     @Test
-        public void pageaa(){
-            Page<Student> page = new Page<>(1, 4);
+    public void pageaa() {
+        Page<Student> page = new Page<>(1, 4);
 //        QueryWrapper<Student> wrapper = new QueryWrapper<>();
 //        wrapper.eq("sno",95001);
         IPage<Student> iPage = studentMapper.selectPage(page, null);
         System.out.println(JSON.toJSON(iPage));
     }
 
+    @Test
+    public void selectStudentListPage() {
+//        Page<StudentScVo> page = new Page<>(2, 3);
+//        page.setRecords(iStudentService.selectStudentListPage(page));
+//        System.out.println(JSON.toJSON(page));
+    }
 }

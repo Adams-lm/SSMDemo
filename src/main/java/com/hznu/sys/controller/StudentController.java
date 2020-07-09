@@ -8,6 +8,7 @@ import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.hznu.sys.entity.Student;
 import com.hznu.sys.mapper.StudentMapper;
 import com.hznu.sys.service.IStudentService;
+import com.hznu.sys.vo.StudentScVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
@@ -46,15 +47,31 @@ public class StudentController {
 
 
     @PostMapping("/pageTest")
-    public JSON R(@RequestBody Map<String,Object> map) {
+    public Object R(@RequestBody Map<String,Object> map) {
         Integer current = (Integer) map.get("current");
         Integer size = (Integer) map.get("size");
         String keyword = (String) map.get("keyword");
+
         Page<Student> page = new Page<>(current, size);
         QueryWrapper<Student> wrapper = new QueryWrapper<>();
         wrapper.eq("sno",keyword);
+
         IPage<Student> iPage = studentMapper.selectPage(page, wrapper);
-        return (JSON) JSON.toJSON(iPage);
+        return page;
+    }
+
+    @PostMapping("/pageConnect")
+    public Object selectStudentListPage(@RequestBody Map<String,Object> map){
+        Integer current = (Integer) map.get("current");
+        Integer size = (Integer) map.get("size");
+//        String keyword = (String) map.get("keyword");
+//
+//        QueryWrapper<Student> wrapper = new QueryWrapper<>();
+//        wrapper.eq("Sname",keyword);
+        Page<StudentScVo> page = new Page<>(current, size);
+
+        page.setRecords(iStudentService.selectStudentListPage(page));
+        return page;
     }
 
 }

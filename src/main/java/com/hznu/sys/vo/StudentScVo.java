@@ -5,7 +5,6 @@ import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
 
 public class StudentScVo {
-    private static final long serialVersionUID = 1L;
 
     @TableId(value = "Sno", type = IdType.AUTO)
     private Integer Sno;
@@ -27,10 +26,6 @@ public class StudentScVo {
 
     @TableField("Grade")
     private Integer Grade;
-
-    public static long getSerialVersionUID() {
-        return serialVersionUID;
-    }
 
     public Integer getSno() {
         return Sno;

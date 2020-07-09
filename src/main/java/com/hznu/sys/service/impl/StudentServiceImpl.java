@@ -7,6 +7,7 @@ import com.hznu.sys.entity.Student;
 import com.hznu.sys.mapper.StudentMapper;
 import com.hznu.sys.service.IStudentService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.hznu.sys.vo.StudentScVo;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -26,6 +27,11 @@ public class StudentServiceImpl extends ServiceImpl<StudentMapper, Student> impl
     public Student selectStudentById(Integer Sno) {
         Student student = this.baseMapper.selectStudentById(Sno);
         return student;
+    }
+
+    @Override
+    public List<StudentScVo> selectStudentListPage(Page<StudentScVo> page) {
+        return this.baseMapper.selectStudentListPage(page);
     }
 
 }

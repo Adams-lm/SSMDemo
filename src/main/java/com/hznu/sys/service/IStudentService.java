@@ -1,7 +1,12 @@
 package com.hznu.sys.service;
 
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.hznu.sys.entity.Student;
+import com.hznu.sys.vo.StudentScVo;
+
+import java.util.List;
 
 /**
  * <p>
@@ -13,4 +18,5 @@ import com.hznu.sys.entity.Student;
  */
 public interface IStudentService extends IService<Student> {
     Student selectStudentById(Integer Sno);
+    List<StudentScVo> selectStudentListPage(Page<StudentScVo> page);
 }

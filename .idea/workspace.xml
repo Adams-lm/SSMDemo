@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0f26928-a9c1-42ef-b22f-4559bf43c9ec" name="Default Changelist" comment="亖">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    <list default="true" id="e0f26928-a9c1-42ef-b22f-4559bf43c9ec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hznu/sys/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/mapper/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hznu/sys/mapper/StudentMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/service/IStudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hznu/sys/service/IStudentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hznu/sys/service/impl/StudentServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/vo/StudentScVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hznu/sys/vo/StudentScVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hznu/sys/StudentDemoApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hznu/sys/StudentDemoApplicationTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hznu/sys/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hznu/sys/controller/StudentController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hznu/sys/service/IStudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hznu/sys/service/IStudentService.class" afterDir="false" />
@@ -55,6 +56,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1eAVXyeDddN37DKO2nQMzqQqd1I" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
@@ -69,7 +73,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
@@ -114,22 +118,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentDemoApplicationTest.MapToJson" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="studentDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hznu.sys.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hznu.sys" />
-      <option name="MAIN_CLASS_NAME" value="com.hznu.sys.StudentDemoApplicationTest" />
-      <option name="METHOD_NAME" value="MapToJson" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StudentDemoApplicationTest.pageaa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studentDemo" />
       <extension name="coverage">
@@ -141,6 +129,22 @@
       <option name="PACKAGE_NAME" value="com.hznu.sys" />
       <option name="MAIN_CLASS_NAME" value="com.hznu.sys.StudentDemoApplicationTest" />
       <option name="METHOD_NAME" value="pageaa" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDemoApplicationTest.paggg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="studentDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hznu.sys.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hznu.sys" />
+      <option name="MAIN_CLASS_NAME" value="com.hznu.sys.StudentDemoApplicationTest" />
+      <option name="METHOD_NAME" value="paggg" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -195,10 +199,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.StudentDemoApplication" />
+        <item itemvalue="JUnit.StudentDemoApplicationTest.paggg" />
         <item itemvalue="JUnit.StudentDemoApplicationTest.pageaa" />
         <item itemvalue="JUnit.StudentDemoApplicationTest.A" />
         <item itemvalue="JUnit.StudentDemoApplicationTest.selectStudentByName" />
-        <item itemvalue="JUnit.StudentDemoApplicationTest.MapToJson" />
       </list>
     </recent_temporary>
   </component>
@@ -217,7 +221,7 @@
       <workItem from="1593849483409" duration="11936000" />
       <workItem from="1593943259582" duration="1827000" />
       <workItem from="1593945898434" duration="33488000" />
-      <workItem from="1594190436744" duration="2840000" />
+      <workItem from="1594190436744" duration="16446000" />
     </task>
     <task id="LOCAL-00001" summary="亖">
       <created>1594088522367</created>
@@ -233,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594113185528</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="CRUD">
+      <created>1594196529776</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1594196529776</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -264,7 +275,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="亖" />
-    <option name="LAST_COMMIT_MESSAGE" value="亖" />
+    <MESSAGE value="CRUD" />
+    <option name="LAST_COMMIT_MESSAGE" value="CRUD" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
