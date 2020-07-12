@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0f26928-a9c1-42ef-b22f-4559bf43c9ec" name="Default Changelist" comment="7.9 划水的一天">
+    <list default="true" id="e0f26928-a9c1-42ef-b22f-4559bf43c9ec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CodeGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hznu/sys/mapper/StudentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hznu/sys/mapper/StudentMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hznu/sys/vo/StudentScVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hznu/sys/vo/StudentScVo.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,9 +70,9 @@
       <recent name="com.hznu.sys" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
       <recent name="com.hznu.sys.config" />
       <recent name="com.hznu.sys" />
-      <recent name="" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\itheimaLearning\studentDemo\src\main\resources" />
@@ -217,7 +212,7 @@
       <workItem from="1593945898434" duration="33488000" />
       <workItem from="1594190436744" duration="17292000" />
       <workItem from="1594362498333" duration="2167000" />
-      <workItem from="1594456170344" duration="3403000" />
+      <workItem from="1594456170344" duration="4052000" />
     </task>
     <task id="LOCAL-00001" summary="亖">
       <created>1594088522367</created>
@@ -247,7 +242,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594299912211</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="7.12 更新代码生成器模板">
+      <created>1594531806000</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594531806000</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +282,8 @@
     <MESSAGE value="亖" />
     <MESSAGE value="CRUD" />
     <MESSAGE value="7.9 划水的一天" />
-    <option name="LAST_COMMIT_MESSAGE" value="7.9 划水的一天" />
+    <MESSAGE value="7.12 更新代码生成器模板" />
+    <option name="LAST_COMMIT_MESSAGE" value="7.12 更新代码生成器模板" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
