@@ -1,19 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0f26928-a9c1-42ef-b22f-4559bf43c9ec" name="Default Changelist" comment="">
+    <list default="true" id="e0f26928-a9c1-42ef-b22f-4559bf43c9ec" name="Default Changelist" comment="7.9 划水的一天">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hznu/sys/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/mapper/StudentMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hznu/sys/mapper/StudentMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/service/IStudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hznu/sys/service/IStudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/service/impl/StudentServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hznu/sys/service/impl/StudentServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/vo/StudentScVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hznu/sys/vo/StudentScVo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hznu/sys/StudentDemoApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hznu/sys/StudentDemoApplicationTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hznu/sys/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hznu/sys/controller/StudentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hznu/sys/service/IStudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hznu/sys/service/IStudentService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hznu/sys/service/impl/StudentServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hznu/sys/service/impl/StudentServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hznu/sys/StudentDemoApplicationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hznu/sys/StudentDemoApplicationTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CodeGenerator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hznu/sys/mapper/StudentMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hznu/sys/mapper/StudentMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hznu/sys/vo/StudentScVo.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hznu/sys/vo/StudentScVo.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -68,7 +62,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../unisign-electronic-seal-system-master" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -221,7 +215,9 @@
       <workItem from="1593849483409" duration="11936000" />
       <workItem from="1593943259582" duration="1827000" />
       <workItem from="1593945898434" duration="33488000" />
-      <workItem from="1594190436744" duration="16446000" />
+      <workItem from="1594190436744" duration="17292000" />
+      <workItem from="1594362498333" duration="2167000" />
+      <workItem from="1594456170344" duration="3403000" />
     </task>
     <task id="LOCAL-00001" summary="亖">
       <created>1594088522367</created>
@@ -244,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594196529776</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="7.9 划水的一天">
+      <created>1594299912211</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594299912211</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,7 +279,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="亖" />
     <MESSAGE value="CRUD" />
-    <option name="LAST_COMMIT_MESSAGE" value="CRUD" />
+    <MESSAGE value="7.9 划水的一天" />
+    <option name="LAST_COMMIT_MESSAGE" value="7.9 划水的一天" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
