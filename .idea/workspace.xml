@@ -1,35 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0f26928-a9c1-42ef-b22f-4559bf43c9ec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/controller/CourseController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/controller/ScController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/controller/StudentController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/entity/Course.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/entity/Sc.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/entity/Student.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/mapper/CourseMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/mapper/ScMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/mapper/StudentMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/service/ICourseService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/service/IScService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/service/IStudentService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/service/impl/CourseServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/service/impl/ScServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/service/impl/StudentServiceImpl.java" beforeDir="false" />
+    <list default="true" id="e0f26928-a9c1-42ef-b22f-4559bf43c9ec" name="Default Changelist" comment="7.17 迟早要划水成鱼塘">
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/CourseMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/ScMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/StudentMapper.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CodeGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hznu/sys/StudentDemoApplicationTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hznu/sys/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hznu/sys/controller/StudentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CodeGenerator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CodeGenerator$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CodeGenerator$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CodeGenerator$2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CodeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CodeGenerator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hznu/sys/StudentDemoApplicationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hznu/sys/StudentDemoApplicationTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,6 +37,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="IgnoredFileRootStore">
     <option name="generatedRoots">
@@ -320,7 +295,8 @@
     <MESSAGE value="CRUD" />
     <MESSAGE value="7.9 划水的一天" />
     <MESSAGE value="7.12 更新代码生成器模板" />
-    <option name="LAST_COMMIT_MESSAGE" value="7.12 更新代码生成器模板" />
+    <MESSAGE value="7.17 迟早要划水成鱼塘" />
+    <option name="LAST_COMMIT_MESSAGE" value="7.17 迟早要划水成鱼塘" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
