@@ -3,6 +3,33 @@
   <component name="ChangeListManager">
     <list default="true" id="e0f26928-a9c1-42ef-b22f-4559bf43c9ec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/controller/CourseController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/controller/ScController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/controller/StudentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/entity/Course.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/entity/Sc.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/entity/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/mapper/CourseMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/mapper/ScMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/mapper/StudentMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/service/ICourseService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/service/IScService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/service/IStudentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/service/impl/CourseServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/service/impl/ScServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/service/impl/StudentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/CourseMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/ScMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/StudentMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hznu/sys/StudentDemoApplicationTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hznu/sys/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hznu/sys/controller/StudentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CodeGenerator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CodeGenerator$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CodeGenerator$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CodeGenerator$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/CodeGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CodeGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hznu/sys/StudentDemoApplicationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hznu/sys/StudentDemoApplicationTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,8 +86,8 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../unisign-electronic-seal-system-master" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15187377" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="fileTemplates" />
     <property name="show.run.dashboard.notification" value="false" />
@@ -70,6 +97,7 @@
       <recent name="com.hznu.sys" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.hznu.sys.utils" />
       <recent name="" />
       <recent name="com.hznu.sys.config" />
       <recent name="com.hznu.sys" />
@@ -90,8 +118,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.StudentDemoApplication">
-    <configuration name="StudentDemoApplicationTest.A" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.StudentDemoApplicationTest.OnlineJudge">
+    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeGenerator" />
+      <module name="studentDemo" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDemoApplicationTest.JsonToMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studentDemo" />
       <extension name="coverage">
         <pattern>
@@ -101,13 +136,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.hznu.sys" />
       <option name="MAIN_CLASS_NAME" value="com.hznu.sys.StudentDemoApplicationTest" />
-      <option name="METHOD_NAME" value="A" />
+      <option name="METHOD_NAME" value="JsonToMapTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentDemoApplicationTest.pageaa" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentDemoApplicationTest.OnlineJudge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studentDemo" />
       <extension name="coverage">
         <pattern>
@@ -117,7 +152,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.hznu.sys" />
       <option name="MAIN_CLASS_NAME" value="com.hznu.sys.StudentDemoApplicationTest" />
-      <option name="METHOD_NAME" value="pageaa" />
+      <option name="METHOD_NAME" value="OnlineJudge" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -134,22 +169,6 @@
       <option name="PACKAGE_NAME" value="com.hznu.sys" />
       <option name="MAIN_CLASS_NAME" value="com.hznu.sys.StudentDemoApplicationTest" />
       <option name="METHOD_NAME" value="paggg" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentDemoApplicationTest.selectStudentByName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="studentDemo" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hznu.sys.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hznu.sys" />
-      <option name="MAIN_CLASS_NAME" value="com.hznu.sys.StudentDemoApplicationTest" />
-      <option name="METHOD_NAME" value="selectStudentByName" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -187,11 +206,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.StudentDemoApplicationTest.OnlineJudge" />
+        <item itemvalue="Application.CodeGenerator" />
         <item itemvalue="Spring Boot.StudentDemoApplication" />
+        <item itemvalue="JUnit.StudentDemoApplicationTest.JsonToMapTest" />
         <item itemvalue="JUnit.StudentDemoApplicationTest.paggg" />
-        <item itemvalue="JUnit.StudentDemoApplicationTest.pageaa" />
-        <item itemvalue="JUnit.StudentDemoApplicationTest.A" />
-        <item itemvalue="JUnit.StudentDemoApplicationTest.selectStudentByName" />
       </list>
     </recent_temporary>
   </component>
@@ -212,7 +231,11 @@
       <workItem from="1593945898434" duration="33488000" />
       <workItem from="1594190436744" duration="17292000" />
       <workItem from="1594362498333" duration="2167000" />
-      <workItem from="1594456170344" duration="4052000" />
+      <workItem from="1594456170344" duration="4990000" />
+      <workItem from="1594607576818" duration="15000" />
+      <workItem from="1594911251345" duration="2343000" />
+      <workItem from="1594955807243" duration="186000" />
+      <workItem from="1594981609769" duration="3488000" />
     </task>
     <task id="LOCAL-00001" summary="亖">
       <created>1594088522367</created>
@@ -249,7 +272,21 @@
       <option name="project" value="LOCAL" />
       <updated>1594531806000</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="7.12 更新代码生成器模板">
+      <created>1594532477405</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1594532477405</updated>
+    </task>
+    <task id="LOCAL-00007" summary="7.12 更新代码生成器模板">
+      <created>1594532546764</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1594532546764</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

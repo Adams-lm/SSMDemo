@@ -30,7 +30,7 @@ public class CodeGenerator {
 
         // 数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
-        dsc.setUrl("jdbc:mysql://localhost:3306/person_center?useUnicode=true&useSSL=false&characterEncoding=utf8");
+        dsc.setUrl("jdbc:mysql://localhost:3306/student?useUnicode=true&useSSL=false&characterEncoding=utf8");
         // dsc.setSchemaName("public");
         dsc.setDriverName("com.mysql.jdbc.Driver");
         dsc.setUsername("root");
@@ -39,7 +39,7 @@ public class CodeGenerator {
 
         // 包配置
         PackageConfig pc = new PackageConfig();
-        pc.setParent("com.hznu.project.sys");
+        pc.setParent("com.hznu.sys");
 //        pc.setModuleName("sys");
         mpg.setPackageInfo(pc);
 
@@ -54,7 +54,7 @@ public class CodeGenerator {
         // 如果模板引擎是 freemarker
         String templatePath = "/templates/mapper.xml.ftl";
         // 如果模板引擎是 velocity
-         //String templatePath = "/templates/mapper.xml.vm";
+        //String templatePath = "/templates/mapper.xml.vm";
 
         // 自定义输出配置
         List<FileOutConfig> focList = new ArrayList<>();
@@ -104,7 +104,7 @@ public class CodeGenerator {
         //strategy.setSuperControllerClass("com.baomidou.ant.common.BaseController");
         // 写于父类中的公共字段
         //strategy.setSuperEntityColumns("id");
-        strategy.setInclude("icon","user");
+        strategy.setInclude("question");
         strategy.setControllerMappingHyphenStyle(true);
         strategy.setTablePrefix(pc.getModuleName() + "_");
         mpg.setStrategy(strategy);
