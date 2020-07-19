@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e0f26928-a9c1-42ef-b22f-4559bf43c9ec" name="Default Changelist" comment="7.17 迟早要划水成鱼塘">
+    <list default="true" id="e0f26928-a9c1-42ef-b22f-4559bf43c9ec" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/controller/QuestionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hznu/sys/controller/QuestionController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hznu/sys/entity/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hznu/sys/entity/Question.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CodeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CodeGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hznu/sys/StudentDemoApplicationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hznu/sys/StudentDemoApplicationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/studentDemo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hznu/sys/controller/QuestionController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hznu/sys/controller/QuestionController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hznu/sys/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hznu/sys/controller/StudentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hznu/sys/entity/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hznu/sys/entity/Question.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/studentDemo.kotlin_module" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hznu/sys/StudentDemoApplicationTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hznu/sys/StudentDemoApplicationTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,15 +102,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.StudentDemoApplicationTest.OnlineJudge">
-    <configuration name="CodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="CodeGenerator" />
-      <module name="studentDemo" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StudentDemoApplicationTest.JsonToMapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Spring Boot.StudentDemoApplication">
+    <configuration name="StudentDemoApplicationTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studentDemo" />
       <extension name="coverage">
         <pattern>
@@ -111,7 +113,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.hznu.sys" />
       <option name="MAIN_CLASS_NAME" value="com.hznu.sys.StudentDemoApplicationTest" />
-      <option name="METHOD_NAME" value="JsonToMapTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StudentDemoApplicationTest.File" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="studentDemo" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hznu.sys.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hznu.sys" />
+      <option name="MAIN_CLASS_NAME" value="com.hznu.sys.StudentDemoApplicationTest" />
+      <option name="METHOD_NAME" value="File" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -133,7 +150,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentDemoApplicationTest.paggg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StudentDemoApplicationTest.String" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="studentDemo" />
       <extension name="coverage">
         <pattern>
@@ -143,7 +160,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.hznu.sys" />
       <option name="MAIN_CLASS_NAME" value="com.hznu.sys.StudentDemoApplicationTest" />
-      <option name="METHOD_NAME" value="paggg" />
+      <option name="METHOD_NAME" value="String" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -181,11 +198,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.StudentDemoApplicationTest.OnlineJudge" />
-        <item itemvalue="Application.CodeGenerator" />
         <item itemvalue="Spring Boot.StudentDemoApplication" />
-        <item itemvalue="JUnit.StudentDemoApplicationTest.JsonToMapTest" />
-        <item itemvalue="JUnit.StudentDemoApplicationTest.paggg" />
+        <item itemvalue="JUnit.StudentDemoApplicationTest.File" />
+        <item itemvalue="JUnit.StudentDemoApplicationTest.String" />
+        <item itemvalue="JUnit.StudentDemoApplicationTest.OnlineJudge" />
+        <item itemvalue="JUnit.StudentDemoApplicationTest" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +278,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594532546764</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="7.17 迟早要划水成鱼塘">
+      <created>1594989963956</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1594989963956</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -26,6 +26,15 @@ public class Question implements Serializable {
 
     private Integer limitMemory;
 
+    public Question() {
+    }
+
+    public Question(String title, Integer limitTime, Integer limitMemory) {
+        this.title = title;
+        this.limitTime = limitTime;
+        this.limitMemory = limitMemory;
+    }
+
     public Integer getId() {
         return id;
     }

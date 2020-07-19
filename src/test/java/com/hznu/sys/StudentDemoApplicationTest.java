@@ -12,14 +12,21 @@ import com.hznu.sys.utils.LanguageMap;
 import com.hznu.sys.vo.StudentScVo;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.mockito.internal.util.StringUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
 import javax.annotation.Resource;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
 
 import static com.hznu.sys.utils.SendRequest.sendJudgePost;
 
@@ -27,11 +34,28 @@ import static com.hznu.sys.utils.SendRequest.sendJudgePost;
 //@SpringBootTest()
 public class StudentDemoApplicationTest {
 
-    @Autowired
-    private IStudentService iStudentService;
+    @Test
+    public void File() {
+        try {
+            String content = "This is the content to write into file";
+            String filePath = "/OnlineJudge/data/backend/test_case/" + "1/";
+            File fileName=new File(filePath);
+            if(!fileName.exists()){//如果文件夹不存在
+                fileName.mkdir();//创建文件夹
+            }
+            File file = new File(filePath+"/info");
+            if (!file.exists()) {
+                file.createNewFile();
+            }
+            FileWriter fw = new FileWriter(file.getAbsoluteFile());
+            BufferedWriter bw = new BufferedWriter(fw);
+            bw.write(content);
+            bw.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
-    @Resource
-    private StudentMapper studentMapper;
 
     @Test
     public void OnlineJudge() throws Exception {
@@ -54,6 +78,7 @@ public class StudentDemoApplicationTest {
         jsonObject.put("max_memory", maxMemory * 1024 * 1024);
         jsonObject.put("test_case_id", testCase);
         jsonObject.put("output", true);
+
 
         System.out.println("=================下面是传入的Json====================");
         for (String str : jsonObject.keySet()) {
