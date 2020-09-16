@@ -27,7 +27,6 @@ public class CodeGenerator {
         gc.setServiceName("%sService");
         // gc.setSwagger2(true); 实体属性 Swagger2 注解
         mpg.setGlobalConfig(gc);
-
         // 数据源配置
         DataSourceConfig dsc = new DataSourceConfig();
         dsc.setUrl("jdbc:mysql://localhost:3306/student?useUnicode=true&useSSL=false&characterEncoding=utf8");
@@ -36,11 +35,10 @@ public class CodeGenerator {
         dsc.setUsername("root");
         dsc.setPassword("123456");
         mpg.setDataSource(dsc);
-
         // 包配置
         PackageConfig pc = new PackageConfig();
         pc.setParent("com.hznu.sys");
-//        pc.setModuleName("sys");
+        //pc.setModuleName("sys");
         mpg.setPackageInfo(pc);
 
         // 自定义配置
@@ -104,7 +102,7 @@ public class CodeGenerator {
         //strategy.setSuperControllerClass("com.baomidou.ant.common.BaseController");
         // 写于父类中的公共字段
         //strategy.setSuperEntityColumns("id");
-        strategy.setInclude("question");
+        strategy.setInclude("test");
         strategy.setControllerMappingHyphenStyle(true);
         strategy.setTablePrefix(pc.getModuleName() + "_");
         mpg.setStrategy(strategy);
